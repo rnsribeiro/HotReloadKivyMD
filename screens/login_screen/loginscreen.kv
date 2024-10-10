@@ -1,0 +1,22 @@
+<LoginScreen>
+
+    MDBoxLayout:
+        orientation: "vertical"
+
+        MDTopAppBar:
+            title: "App de Vendas"
+            elevation: 10
+            left_action_items: [["menu", lambda x: app.callback()]]
+            md_bg_color: app.theme_cls.accent_color
+
+        MDLabel:
+            text: "Label com fundo azul"
+            bold: True
+            halign: "center"
+            md_bg_color: 0,0,1,1
+
+        MDLabel:
+            text: "Label com fundo verde"
+            bold: True
+            halign: "center"
+            md_bg_color: 0,1,0,1
